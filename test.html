@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Online Shop</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.14.0/jquery.validate.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript">
+  	$(function() {
+
+  $("#signupform").validate({
+    rules: {
+      uname: {
+        required: true,
+        minlength: 8
+      },
+      action: "required"
+    },
+    messages: {
+      uname: {
+        required: "Please enter some data",
+        minlength: "Your data must be at least 8 characters"
+      },
+      action: "Please provide some data"
+    }
+  });
+});
+  </script>
+   <style>
+   .fa {
+  
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  </style>
+</head>
+<body>
+<div class="jumbotron">
+	<div class="container text-center">
+		<h1 style="font-family: 'Fredoka One', cursive">Online Store</h1>
+		<p>Mission, Vission & Values</p>
+	</div>
+</div>
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<img class="navbar-brand" src="logo.jpg" "width: 100%">
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">Deals</a></li>
+				<li><a href="#">Stores</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="form/index.html"><span class="glyphicon glyphicon-user"></span>&nbsp; Sign Up / Log In</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+
+			<div class="panel panel-primary">
+				<div class="panel-heading">Product 1
+					<div class="pannel-body">
+						<img class="p1" src="1.png" class="image-responsive" style="width: 100%" alt="product 1" width="304" height="236" >
+					</div>
+					<div class="pannel-footer">
+						Buy 50 mobiles and get a gift card
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		<div class="col-md-4">
+			<div class="panel panel-primary">
+				<div class="panel-heading">Product 2
+					<div class="pannel-body">
+						<img class="p1" src="2.jpg" class="image-responsive" style="width: 100%" alt="product 2" width="304" height="236">
+					</div>
+					<div class="pannel-footer">
+						Buy 50 mobiles and get a gift card
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		<div class="col-md-4">
+			<div class="panel panel-primary">
+				<div class="panel-heading">Product 3
+					<div class="pannel-body">
+						<img class="p1" src="3.png" class="image-responsive" style="width: 100%" alt="product 3" width="304" height="236">
+					</div>
+					<div class="pannel-footer">
+						Buy 50 mobiles and get a gift card
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		<div class="col-md-4">
+			<div class="panel panel-primary">
+				<div class="panel-heading">Product 4
+					<div class="pannel-body">
+						<img class="p1" src="4.jpg" class="image-responsive" style="width: 100%" alt="product 4" width="304" height="236">
+					</div>
+					<div class="pannel-footer">
+						Buy 50 mobiles and get a gift card
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		<div class="col-md-4">
+			<div class="panel panel-primary">
+				<div class="panel-heading">Product 5
+					<div class="pannel-body">
+						<img class="p1" src="5.jpg" class="image-responsive" style="width: 100%" alt="product 5" width="304" height="236">
+					</div>
+					<div class="pannel-footer">
+						Buy 50 mobiles and get a gift card
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		<div class="col-md-4">
+			<div class="panel panel-primary">
+				<div class="panel-heading">Product 6
+					<div class="pannel-body">
+						<img class="p1" src="6.jpg" class="image-responsive" style="width: 100%" alt="product 6" width="304" height="236">
+					</div>
+					<div class="pannel-footer">
+						Buy 50 mobiles and get a gift card
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+
+</div>
+<br><br>
+
+
+<footer class="container-fluid text-center">
+	<p>
+		Online Store 	&copy; 2018 || 
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-google"></a>
+		<a href="#" class="fa fa-linkedin"></a>
+	</p>
+</footer>
+
+
+<script src="test.js"></script>
+</body>
+</html>
+
+fn ln
+city
+number
+cp
+add

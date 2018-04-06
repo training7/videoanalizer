@@ -1,0 +1,98 @@
+<html>
+<head>
+ <title>Comparison Tool</title>
+ <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+<div id="main" class="main">
+
+
+        <div class="titlebar" >
+
+
+        </div>
+
+ <h4>Choose the text file you wish to examine for unique values:</h4>
+
+ <input type='file'  onchange='readFileUnderTest(event)'><br>
+
+
+
+ <pre id="contents"  ></pre>
+
+ <h4>Choose the text file you are comparing the first file to:</h4>
+
+
+ <input type='file'  onchange='readTestFile(event)'><br>
+
+ <h4>The values that appear in the first file that do not appear in the second are:</h4>
+
+ <textarea id="contents1" class="txtrea"  ></textarea>
+
+<!-- <h4>The following value(s) appear(s) less frequently in the first file than in the second:</h4>
+ <textarea id="contents2" class="txtrea"  ></textarea>
+ <h4>The following value(s) appear(s) more frequently in the first file than in the second:</h4>
+ <textarea id="contents3" class="txtrea"  ></textarea>     -->
+
+
+
+</div>
+
+
+
+<script>
+var carsStr = "";
+var carsStr1 = "";
+//on select in first pre, text file contents get read to carsStr
+var readFileUnderTest = function(event) {    
+    var input = event.target;        
+    var reader = new FileReader();     
+    reader.onload = function(){        
+ carsStr = this.result; 
+    };
+ reader.readAsText(input.files[0]);  
+};
+//on select in second pre, text file contents get read to carsStr1
+//then both get turned into arrays for comparison
+//unique value are found for the first file
+//unique values are turned back to a string and displayed
+var readTestFile = function(event) {   
+ 
+    var input = event.target;        
+    var reader = new FileReader();     
+    reader.onload = function(){ 
+  
+     var newStr = carsStr.replace(/\s/g, ',');
+     var cars = newStr.split(",");    
+      
+ carsStr1 = this.result
+ var newStr1 = carsStr1.replace(/\s/g, ',');
+ var autos = newStr1.split(","); 
+ var unique = [];
+  for(var i = 0; i < cars.length; i++){
+       var found = false;
+       for(var j = 0; j< autos.length; j++){
+        if(cars[i] == autos[j]){
+         found = true;
+         break; 
+       }
+      }
+      if(found == false){
+      unique.push(cars[i]);
+     }
+   }
+  var stringplus = "";
+  for (var x = 0; x<unique.length; x++)
+  {
+    stringplus = stringplus + " " +unique[x];
+  }
+ document.getElementById('contents1').textContent = stringplus; 
+    };
+    reader.readAsText(input.files[0]);  
+  };
+</script>
+</body>
+</html>

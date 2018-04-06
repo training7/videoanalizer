@@ -1,0 +1,212 @@
+          {
+   "results": [
+      {
+         "alternatives": [
+            {
+               "confidence": 0.75, 
+               "transcript": "hello today we're hearing CVS "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.863, 
+               "transcript": "I mean here today to shop for some vitamins and probiotics I take these on a daily schedule maintain a healthy lifestyle "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.842, 
+               "transcript": "%HESITATION previously I've tried the scummy probiotics "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.983, 
+               "transcript": "but "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.84, 
+               "transcript": "they don't I don't really enjoy the "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.938, 
+               "transcript": "east of them "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.999, 
+               "transcript": "%HESITATION "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.847, 
+               "transcript": "chalky almost "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.837, 
+               "transcript": "I said today I'm actually gonna try "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.837, 
+               "transcript": "the digestive advantage "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.727, 
+               "transcript": "%HESITATION previously when I am gone with the company probiotics I "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.958, 
+               "transcript": "I did it simply because of the price difference "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.615, 
+               "transcript": "it's two dollars cheaper for dummies "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.658, 
+               "transcript": "but that since I didn't enjoy it I mean I tried the "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.768, 
+               "transcript": "%HESITATION chocolate chewing on these things hopefully have a bit better flavor "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.804, 
+               "transcript": "%HESITATION I think I like it bag more as well "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.95, 
+               "transcript": "it just feels nicer "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.981, 
+               "transcript": "other than that "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.91, 
+               "transcript": "I'm just hoping these taste better than the previous ones "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.908, 
+               "transcript": "there's I haven't tried "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.655, 
+               "transcript": "the CVS health brand "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.901, 
+               "transcript": "probiotics I'm not sure I will we'll see based on my opinion of these ones "
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "alternatives": [
+            {
+               "confidence": 0.998, 
+               "transcript": "but thanks for listening "
+            }
+         ], 
+         "final": true
+      }
+   ], 
+   "result_index": 0
+}

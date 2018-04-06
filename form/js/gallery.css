@@ -1,0 +1,23 @@
+cf:before,
+.cf:after{
+	content: " ";
+	display: table;
+}
+
+.cf:after{
+	clear: both;
+}
+
+.container{
+	max-width: 940px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.gallery{
+	width: 100%;
+}
+
+.gallery-item{
+	float: left;
+}
